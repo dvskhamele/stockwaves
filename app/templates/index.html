@@ -1,0 +1,238 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <div class="col-lg-6">
+                        <hr>
+                        <h2 class="intro-text text-center"><strong>stock alerts</strong>
+                        </h2>
+                        <hr>
+                        <hr class="visible-xs">
+                        <img src="/static/img/waves-723178_1280.png" style="width: 550px;">
+                        {% if news %}
+                            {% for row in news %}
+                                <div>
+                                    <a href="{{row.url}}"><h4> {{ row.title }}</h4></a>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+
+                    </div>
+                    <div class="col-lg-6">
+                        <hr>
+                        <h2 class="intro-text text-center"><strong>Create an account</strong></h2>
+                        <hr>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-10">
+                            <form id="newuser" action="/register/" method="post" name="registerform">
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                    <input class="form-control" placeholder="User name" id ="username" autofocus="" name="username" value="" required="required">
+                                  </div>
+                              </div>
+                              <div id='usernamerror' class="row hide">
+                                  <p style="font-size:12px;color:red">error: this is username not avaible!</p>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback" style="width: 213px; float: left;">
+                                    <input type="password" class="form-control" placeholder="New password" id ="password" name="password" value="" required="required" >
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                  </div>
+                                  <div class="form-group has-feedback" style="margin-left:10px; width: 213px;  float: left;">
+                                    <input type="password" class="form-control" placeholder="Reenter password" id ="repasswords" name="repasswords" value="" required="required">
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                  </div>
+                              </div>
+                              <div id='passworderror' class="row hide">
+                                  <p style="font-size:12px;color:red">error: password not much!</p>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                    <input type="email" class="form-control" placeholder="Email" id ="email" name="email" value=""  required="required">
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                  </div>
+                              </div>
+                              <div id='emailerror' class="row hide">
+                                  <p style="font-size:12px;color:red">error: this is email not avaible!</p>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                    <input type="text" class="form-control" placeholder="Mobile number" id ="mobilenumber" name="mobilenumber" value=""  required="required">
+                                    <span class="glyphicon glyphicon-earphone form-control-feedback"></span>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                    <input type="text" class="form-control" id="referfrom"  name="referfrom" placeholder="Refer from">
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                      <select class="ember-view form-control" id="serviceprovider" name="serviceprovider" placeholder="Service provider"></select>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="form-group has-feedback"  style="width: 436px;">
+                                      <button class="btn btn-primary center-block">Create an account</button>
+                                  </div>
+                              </div>
+                            </form>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
+{% block extrascript%}
+<script type="text/javascript">
+    var serviceProvider = {};
+    $("#newuser").submit(function() {
+        myurlpost = "/api/v1/newuser/";
+        formerror = false;
+        password = $("#password").val();
+
+        if (password != $("#repasswords").val()){
+            formerror = true;
+            $('#passworderror').removeClass('hide');
+        }
+        else{
+            $('#passworderror').addClass('hide');
+        }
+        serviceprovider = $("#serviceprovider").val();
+        serviceprovidername = $("#serviceprovider option:selected" ).text();
+
+        if (serviceprovidername in serviceProvider){
+            serviceprovidername = ''
+        }
+
+        formData = {
+            'username': $("#username").val(),
+            'password': password,
+            'email': $("#email").val(),
+            'mobilenumber': $("#mobilenumber").val(),
+            'referfrom': $("#referfrom").val(),
+            'serviceprovider': serviceprovider,
+            'serviceprovidername': serviceprovidername
+        };
+
+        if (! formerror){
+            $.ajax({
+                url:myurlpost,
+                type:'POST',
+                data: JSON.stringify(formData),
+                contentType: "application/json; charset=utf-8",
+                success: function(res) {
+                    console.log(res);
+                    if (res.status == 409){
+                        if (res.usererror){
+                            $('#usernamerror').removeClass('hide');
+                        }
+                        else{
+                            $('#usernamerror').addClass('hide');
+                        }
+                        if (res.emailerror ){
+                            $('#emailerror').removeClass('hide');
+                        }
+                        else{
+                            $('#emailerror').addClass('hide');
+                        }
+                    }
+                    else {
+                        $('#usernamerror').addClass('hide');
+                        $('#emailerror').addClass('hide');
+                        alert('Add new user.');
+                        window.location = 'http://www.stockmarketwaves.tk/success/';
+                    }
+                },
+                error:  function(res) {
+                  alert('Error add new user.');
+                }
+              });
+
+        }
+        return false;
+    });
+// '
+
+    $(document).ready(function() {
+        $("#serviceprovider").select2({
+            placeholder: "Select a service provider",
+            allowClear: true,
+            tags: true,
+            ajax: {
+                url: "/api/v1/serviceprovider/",
+                dataType: 'json',
+                type: "GET",
+                delay: 250,
+                data: function (params) {
+                    var queryParameters = {
+                        term: params.term
+                    };
+                    return queryParameters;
+                },
+                processResults: function (data) {
+                    return {
+                        results: $.map(data.data, function (item) {
+                            serviceProvider[item.name] = item.serviceprovider_id;
+                            return {
+                                id: item.serviceprovider_id,
+                                text: item.name
+                            }
+                        })
+                    };
+                },
+                cache: true
+            }
+        });
+    });
+</script>
+{% endblock %}
+
+
+
+        $("#testserviceprovider").select2({
+            placeholder: "Select a service provider",
+            allowClear: true,
+            tags: true,
+            language: {
+                noResults: function() {
+                    // console.log(params);
+                    return "<button type=\"button\" class=\"btn btn-info btn-xs\">Добавить в справочник</button>";
+                    // return "No results <a href='http://google.com'>Add new value</a>";
+                }
+            }
+        })
+        .parent().find('.select2-with-searchbox').on('click','#addNewSP',function(){
+            var newTerm = $('#newTerm').val();
+            console.log(newTerm);
+            $('<option>'+newTerm+'</option>').appendTo('#mySel');
+            $('#mySel').select2('val',newTerm); // select the new term
+            $("#mySel").select2('close');       // close the dropdown
+          })
+
+
+            formatNoMatches: function(term) {
+                console.log(term)
+                return "<input class='form-control' id='newserviceprovider' value='"+term+"'><a href='#' id='addNewSP' class='btn btn-default'>Create</a>"
+            }
+
+        $("#testserviceprovider").select2({
+            placeholder: "Select a service provider",
+            allowClear: true,
+            processResults: function (data, params) {
+                console.log(data)
+            },
+            language: {
+                noResults: function() {return "No results <a href='http://google.com'>Add new value</a>"; }
+            }
+        })
+        .parent().find('.select2-with-searchbox').on('click','#addNewSP',function(){
+            var newTerm = $('#newTerm').val();
+            //alert('adding:'+newTerm);
+            $('<option>'+newTerm+'</option>').appendTo('#mySel');
+            $('#mySel').select2('val',newTerm); // select the new term
+            $("#mySel").select2('close');       // close the dropdown
+          })

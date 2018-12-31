@@ -1,0 +1,78 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+        <div class="row">
+
+            <div class="box">
+                <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center"><strong>I forgot my password:</strong></h2>
+                        <hr>
+                        <div class="login-box" id="rememberbox">
+                          <div class="login-box-body">
+                                <form  method="post" name="forgotpassword" id="forgotpassword">
+                                  <div class="form-group has-feedback">
+                                    <input type="text" class="form-control" placeholder="User name or email" id ="username" name="username" required="required">
+                                    <i class="fa fa-user form-control-feedback" aria-hidden="true" style="padding-top: 2px;"></i>
+                                  </div>
+                                  <div class="form-group has-feedback hide" id='usererror'>
+                                    <span style="font-size:12px;color:red">Error: this is username or email not avaible!</span>
+                                  </div>
+                                  <div class="form-group has-feedback">
+                                        <button type="submit" class="btn btn-primary btn-block btn-social btn-flat"><i class="fa fa-key"></i>Send password</button>
+                                  </div>
+                                </form>
+                          </div>
+                        </div>
+                        <div class="login-box hide" id="srememberbox">
+                          <div class="login-box-body">
+                              <span>We’ll send an email to your Primary Email Address. Click the link in your email, and you’ll be able to enter a new password</span>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}
+
+{% block extrascript%}
+
+<script type="text/javascript">
+    $("#forgotpassword").submit(function() {
+        console.log("formdate");
+        urlpost = "/api/v1/forgotpassword/";
+        formerror = false;
+        formData = {
+            'username': $("#username").val()
+        };
+        console.log("formdate", formData);
+
+        $.ajax({
+            url:urlpost,
+            type:'POST',
+            data: JSON.stringify(formData),
+            contentType: "application/json; charset=utf-8",
+            success: function(res) {
+                if (res.status == 409){
+                    if (res.usernamerror == 1){
+                        $('#usererror').removeClass('hide');
+                    }
+                    else{
+                        $('#usererror').addClass('hide');
+                    }
+                }
+                else {
+                    $('#rememberbox').addClass('hide');
+                    $('#usererror').addClass('hide');
+                    $('#srememberbox').removeClass('hide');
+                }
+            },
+            error:  function(res) {
+              alert('Error login.');
+            }
+          });
+        return false;
+    });
+
+</script>
+
+{% endblock %}

@@ -1,0 +1,1711 @@
+[2016-04-20 12:38:48 -0400] [19035] [INFO] Starting gunicorn 19.4.5
+[2016-04-20 12:38:48 -0400] [19035] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (19035)
+[2016-04-20 12:38:48 -0400] [19035] [INFO] Using worker: sync
+[2016-04-20 12:38:48 -0400] [19039] [INFO] Booting worker with pid: 19039
+[2016-04-20 12:38:48 -0400] [19040] [INFO] Booting worker with pid: 19040
+[2016-04-20 12:38:58 -0400] [19035] [INFO] Handling signal: int
+[2016-04-20 12:38:58 -0400] [19039] [INFO] Worker exiting (pid: 19039)
+[2016-04-20 12:38:58 -0400] [19040] [INFO] Worker exiting (pid: 19040)
+[2016-04-20 12:38:58 -0400] [19035] [INFO] Shutting down: Master
+[2016-04-20 12:51:34 -0400] [19333] [INFO] Starting gunicorn 19.4.5
+[2016-04-20 12:51:34 -0400] [19333] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (19333)
+[2016-04-20 12:51:34 -0400] [19333] [INFO] Using worker: sync
+[2016-04-20 12:51:34 -0400] [19337] [INFO] Booting worker with pid: 19337
+[2016-04-20 12:51:34 -0400] [19338] [INFO] Booting worker with pid: 19338
+[2016-04-20 12:51:54 -0400] [19333] [INFO] Handling signal: int
+[2016-04-20 12:51:54 -0400] [19337] [INFO] Worker exiting (pid: 19337)
+[2016-04-20 12:51:54 -0400] [19338] [INFO] Worker exiting (pid: 19338)
+[2016-04-20 12:51:54 -0400] [19333] [INFO] Shutting down: Master
+[2016-04-20 12:53:57 -0400] [19389] [INFO] Starting gunicorn 19.4.5
+[2016-04-20 12:53:57 -0400] [19389] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (19389)
+[2016-04-20 12:53:57 -0400] [19389] [INFO] Using worker: sync
+[2016-04-20 12:53:57 -0400] [19393] [INFO] Booting worker with pid: 19393
+[2016-04-20 12:53:57 -0400] [19394] [INFO] Booting worker with pid: 19394
+[2016-04-20 12:54:09 -0400] [19389] [INFO] Handling signal: int
+[2016-04-20 12:54:09 -0400] [19394] [INFO] Worker exiting (pid: 19394)
+[2016-04-20 12:54:09 -0400] [19393] [INFO] Worker exiting (pid: 19393)
+[2016-04-20 12:54:10 -0400] [19389] [INFO] Shutting down: Master
+[2016-04-21 15:03:16 -0400] [24503] [INFO] Starting gunicorn 19.4.5
+[2016-04-21 15:03:16 -0400] [24503] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24503)
+[2016-04-21 15:03:16 -0400] [24503] [INFO] Using worker: sync
+[2016-04-21 15:03:16 -0400] [24507] [INFO] Booting worker with pid: 24507
+[2016-04-21 15:03:16 -0400] [24508] [INFO] Booting worker with pid: 24508
+[2016-04-21 15:03:18 -0400] [24507] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 60, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 31, in <module>
+    admin = Admin(app)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 521, in __init__
+    self.add_view(self.index_view)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 539, in add_view
+    self.app.register_blueprint(view.create_blueprint(self))
+AttributeError: 'module' object has no attribute 'register_blueprint'
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 60, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 31, in <module>
+    admin = Admin(app)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 521, in __init__
+    self.add_view(self.index_view)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 539, in add_view
+    self.app.register_blueprint(view.create_blueprint(self))
+AttributeError: 'module' object has no attribute 'register_blueprint'
+[2016-04-21 15:03:18 -0400] [24507] [INFO] Worker exiting (pid: 24507)
+[2016-04-21 15:03:18 -0400] [24508] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 60, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 31, in <module>
+    admin = Admin(app)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 521, in __init__
+    self.add_view(self.index_view)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 539, in add_view
+    self.app.register_blueprint(view.create_blueprint(self))
+AttributeError: 'module' object has no attribute 'register_blueprint'
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 60, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 31, in <module>
+    admin = Admin(app)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 521, in __init__
+    self.add_view(self.index_view)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/base.py", line 539, in add_view
+    self.app.register_blueprint(view.create_blueprint(self))
+AttributeError: 'module' object has no attribute 'register_blueprint'
+[2016-04-21 15:03:18 -0400] [24508] [INFO] Worker exiting (pid: 24508)
+[2016-04-21 15:03:18 -0400] [24503] [INFO] Shutting down: Master
+[2016-04-21 15:03:18 -0400] [24503] [INFO] Reason: Worker failed to boot.
+[2016-04-22 09:58:22 -0400] [27019] [INFO] Starting gunicorn 19.4.5
+[2016-04-22 09:58:22 -0400] [27019] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (27019)
+[2016-04-22 09:58:22 -0400] [27019] [INFO] Using worker: sync
+[2016-04-22 09:58:22 -0400] [27023] [INFO] Booting worker with pid: 27023
+[2016-04-22 09:58:22 -0400] [27024] [INFO] Booting worker with pid: 27024
+[2016-04-22 10:06:29 -0400] [27019] [INFO] Handling signal: int
+[2016-04-22 10:06:29 -0400] [27024] [INFO] Worker exiting (pid: 27024)
+[2016-04-22 10:06:29 -0400] [27023] [INFO] Worker exiting (pid: 27023)
+[2016-04-22 10:06:29 -0400] [27019] [INFO] Shutting down: Master
+[2016-04-22 12:15:33 -0400] [27161] [INFO] Starting gunicorn 19.4.5
+[2016-04-22 12:15:33 -0400] [27161] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (27161)
+[2016-04-22 12:15:33 -0400] [27161] [INFO] Using worker: sync
+[2016-04-22 12:15:33 -0400] [27165] [INFO] Booting worker with pid: 27165
+[2016-04-22 12:15:33 -0400] [27166] [INFO] Booting worker with pid: 27166
+[2016-04-22 12:16:34 -0400] [27161] [INFO] Handling signal: int
+[2016-04-22 12:16:34 -0400] [27165] [INFO] Worker exiting (pid: 27165)
+[2016-04-22 12:16:34 -0400] [27166] [INFO] Worker exiting (pid: 27166)
+[2016-04-22 12:16:34 -0400] [27161] [INFO] Shutting down: Master
+[2016-04-22 12:56:16 -0400] [27237] [INFO] Starting gunicorn 19.4.5
+[2016-04-22 12:56:16 -0400] [27237] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (27237)
+[2016-04-22 12:56:16 -0400] [27237] [INFO] Using worker: sync
+[2016-04-22 12:56:16 -0400] [27241] [INFO] Booting worker with pid: 27241
+[2016-04-22 12:56:16 -0400] [27242] [INFO] Booting worker with pid: 27242
+[2016-04-22 19:39:06 -0400] [27237] [INFO] Handling signal: int
+[2016-04-22 19:39:06 -0400] [27242] [INFO] Worker exiting (pid: 27242)
+[2016-04-22 19:39:06 -0400] [27241] [INFO] Worker exiting (pid: 27241)
+[2016-04-22 19:39:07 -0400] [27237] [INFO] Shutting down: Master
+[2016-04-22 19:39:08 -0400] [27602] [INFO] Starting gunicorn 19.4.5
+[2016-04-22 19:39:08 -0400] [27602] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (27602)
+[2016-04-22 19:39:08 -0400] [27602] [INFO] Using worker: sync
+[2016-04-22 19:39:08 -0400] [27606] [INFO] Booting worker with pid: 27606
+[2016-04-22 19:39:08 -0400] [27607] [INFO] Booting worker with pid: 27607
+[2016-04-22 19:39:51 -0400] [27602] [INFO] Handling signal: int
+[2016-04-22 19:39:51 -0400] [27606] [INFO] Worker exiting (pid: 27606)
+[2016-04-22 19:39:51 -0400] [27607] [INFO] Worker exiting (pid: 27607)
+[2016-04-22 19:39:51 -0400] [27602] [INFO] Shutting down: Master
+[2016-04-23 09:02:34 -0400] [29204] [INFO] Starting gunicorn 19.4.5
+[2016-04-23 09:02:34 -0400] [29204] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (29204)
+[2016-04-23 09:02:34 -0400] [29204] [INFO] Using worker: sync
+[2016-04-23 09:02:34 -0400] [29208] [INFO] Booting worker with pid: 29208
+[2016-04-23 09:02:34 -0400] [29209] [INFO] Booting worker with pid: 29209
+[2016-04-23 09:06:11 -0400] [29204] [INFO] Handling signal: int
+[2016-04-23 09:06:11 -0400] [29208] [INFO] Worker exiting (pid: 29208)
+[2016-04-23 09:06:11 -0400] [29209] [INFO] Worker exiting (pid: 29209)
+[2016-04-23 09:06:11 -0400] [29204] [INFO] Shutting down: Master
+[2016-04-23 09:06:13 -0400] [29215] [INFO] Starting gunicorn 19.4.5
+[2016-04-23 09:06:13 -0400] [29215] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (29215)
+[2016-04-23 09:06:13 -0400] [29215] [INFO] Using worker: sync
+[2016-04-23 09:06:13 -0400] [29219] [INFO] Booting worker with pid: 29219
+[2016-04-23 09:06:13 -0400] [29220] [INFO] Booting worker with pid: 29220
+[2016-04-23 09:06:57 -0400] [29215] [INFO] Handling signal: int
+[2016-04-23 09:06:57 -0400] [29219] [INFO] Worker exiting (pid: 29219)
+[2016-04-23 09:06:57 -0400] [29220] [INFO] Worker exiting (pid: 29220)
+[2016-04-23 09:06:58 -0400] [29215] [INFO] Shutting down: Master
+[2016-04-23 09:06:59 -0400] [29226] [INFO] Starting gunicorn 19.4.5
+[2016-04-23 09:06:59 -0400] [29226] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (29226)
+[2016-04-23 09:06:59 -0400] [29226] [INFO] Using worker: sync
+[2016-04-23 09:06:59 -0400] [29230] [INFO] Booting worker with pid: 29230
+[2016-04-23 09:06:59 -0400] [29231] [INFO] Booting worker with pid: 29231
+[2016-04-23 09:07:22 -0400] [29226] [INFO] Handling signal: int
+[2016-04-23 09:07:22 -0400] [29230] [INFO] Worker exiting (pid: 29230)
+[2016-04-23 09:07:22 -0400] [29231] [INFO] Worker exiting (pid: 29231)
+[2016-04-23 09:07:23 -0400] [29226] [INFO] Shutting down: Master
+[2016-04-23 09:07:24 -0400] [29235] [INFO] Starting gunicorn 19.4.5
+[2016-04-23 09:07:24 -0400] [29235] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (29235)
+[2016-04-23 09:07:24 -0400] [29235] [INFO] Using worker: sync
+[2016-04-23 09:07:24 -0400] [29239] [INFO] Booting worker with pid: 29239
+[2016-04-23 09:07:24 -0400] [29240] [INFO] Booting worker with pid: 29240
+[2016-04-23 18:23:36 -0400] [29235] [INFO] Handling signal: int
+[2016-04-23 18:23:36 -0400] [29240] [INFO] Worker exiting (pid: 29240)
+[2016-04-23 18:23:36 -0400] [29239] [INFO] Worker exiting (pid: 29239)
+[2016-04-23 18:23:37 -0400] [29235] [INFO] Shutting down: Master
+[2016-04-23 18:27:10 -0400] [30093] [INFO] Starting gunicorn 19.4.5
+[2016-04-23 18:27:10 -0400] [30093] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (30093)
+[2016-04-23 18:27:10 -0400] [30093] [INFO] Using worker: sync
+[2016-04-23 18:27:10 -0400] [30097] [INFO] Booting worker with pid: 30097
+[2016-04-23 18:27:10 -0400] [30098] [INFO] Booting worker with pid: 30098
+[2016-04-25 03:13:10 -0400] [30093] [INFO] Handling signal: int
+[2016-04-25 03:13:10 -0400] [30097] [INFO] Worker exiting (pid: 30097)
+[2016-04-25 03:13:10 -0400] [30098] [INFO] Worker exiting (pid: 30098)
+[2016-04-25 03:13:10 -0400] [30093] [INFO] Shutting down: Master
+[2016-04-25 03:13:12 -0400] [8433] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 03:13:12 -0400] [8433] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (8433)
+[2016-04-25 03:13:12 -0400] [8433] [INFO] Using worker: sync
+[2016-04-25 03:13:12 -0400] [8437] [INFO] Booting worker with pid: 8437
+[2016-04-25 03:13:12 -0400] [8438] [INFO] Booting worker with pid: 8438
+[2016-04-25 03:13:34 -0400] [8433] [INFO] Handling signal: int
+[2016-04-25 03:13:34 -0400] [8437] [INFO] Worker exiting (pid: 8437)
+[2016-04-25 03:13:34 -0400] [8438] [INFO] Worker exiting (pid: 8438)
+[2016-04-25 03:13:35 -0400] [8433] [INFO] Shutting down: Master
+[2016-04-25 03:32:16 -0400] [8625] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 03:32:16 -0400] [8625] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (8625)
+[2016-04-25 03:32:16 -0400] [8625] [INFO] Using worker: sync
+[2016-04-25 03:32:16 -0400] [8629] [INFO] Booting worker with pid: 8629
+[2016-04-25 03:32:16 -0400] [8630] [INFO] Booting worker with pid: 8630
+[2016-04-25 04:12:56 -0400] [8625] [INFO] Handling signal: int
+[2016-04-25 04:12:56 -0400] [8629] [INFO] Worker exiting (pid: 8629)
+[2016-04-25 04:12:56 -0400] [8630] [INFO] Worker exiting (pid: 8630)
+[2016-04-25 04:12:57 -0400] [8625] [INFO] Shutting down: Master
+[2016-04-25 04:33:32 -0400] [8915] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 04:33:32 -0400] [8915] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (8915)
+[2016-04-25 04:33:32 -0400] [8915] [INFO] Using worker: sync
+[2016-04-25 04:33:32 -0400] [8919] [INFO] Booting worker with pid: 8919
+[2016-04-25 04:33:32 -0400] [8920] [INFO] Booting worker with pid: 8920
+[2016-04-25 04:53:54 -0400] [8915] [INFO] Handling signal: int
+[2016-04-25 04:53:54 -0400] [8920] [INFO] Worker exiting (pid: 8920)
+[2016-04-25 04:53:54 -0400] [8919] [INFO] Worker exiting (pid: 8919)
+[2016-04-25 04:53:55 -0400] [8915] [INFO] Shutting down: Master
+[2016-04-25 04:54:22 -0400] [9050] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 04:54:22 -0400] [9050] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (9050)
+[2016-04-25 04:54:22 -0400] [9050] [INFO] Using worker: sync
+[2016-04-25 04:54:22 -0400] [9054] [INFO] Booting worker with pid: 9054
+[2016-04-25 04:54:22 -0400] [9055] [INFO] Booting worker with pid: 9055
+[2016-04-25 04:54:35 -0400] [9050] [INFO] Handling signal: int
+[2016-04-25 04:54:35 -0400] [9054] [INFO] Worker exiting (pid: 9054)
+[2016-04-25 04:54:35 -0400] [9055] [INFO] Worker exiting (pid: 9055)
+[2016-04-25 04:54:36 -0400] [9050] [INFO] Shutting down: Master
+[2016-04-25 04:55:17 -0400] [9080] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 04:55:17 -0400] [9080] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (9080)
+[2016-04-25 04:55:17 -0400] [9080] [INFO] Using worker: sync
+[2016-04-25 04:55:17 -0400] [9084] [INFO] Booting worker with pid: 9084
+[2016-04-25 04:55:17 -0400] [9085] [INFO] Booting worker with pid: 9085
+[2016-04-25 04:57:41 -0400] [9080] [INFO] Handling signal: int
+[2016-04-25 04:57:41 -0400] [9084] [INFO] Worker exiting (pid: 9084)
+[2016-04-25 04:57:41 -0400] [9085] [INFO] Worker exiting (pid: 9085)
+[2016-04-25 04:57:42 -0400] [9080] [INFO] Shutting down: Master
+[2016-04-25 05:02:35 -0400] [9248] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 05:02:35 -0400] [9248] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (9248)
+[2016-04-25 05:02:35 -0400] [9248] [INFO] Using worker: sync
+[2016-04-25 05:02:35 -0400] [9252] [INFO] Booting worker with pid: 9252
+[2016-04-25 05:02:35 -0400] [9253] [INFO] Booting worker with pid: 9253
+[2016-04-25 05:03:44 -0400] [9248] [INFO] Handling signal: int
+[2016-04-25 05:03:44 -0400] [9252] [INFO] Worker exiting (pid: 9252)
+[2016-04-25 05:03:44 -0400] [9253] [INFO] Worker exiting (pid: 9253)
+[2016-04-25 05:03:45 -0400] [9248] [INFO] Shutting down: Master
+[2016-04-25 05:03:46 -0400] [9267] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 05:03:46 -0400] [9267] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (9267)
+[2016-04-25 05:03:46 -0400] [9267] [INFO] Using worker: sync
+[2016-04-25 05:03:46 -0400] [9271] [INFO] Booting worker with pid: 9271
+[2016-04-25 05:03:46 -0400] [9272] [INFO] Booting worker with pid: 9272
+[2016-04-25 13:51:40 -0400] [9267] [INFO] Handling signal: int
+[2016-04-25 13:51:40 -0400] [9272] [INFO] Worker exiting (pid: 9272)
+[2016-04-25 13:51:40 -0400] [9271] [INFO] Worker exiting (pid: 9271)
+[2016-04-25 13:51:40 -0400] [9267] [INFO] Shutting down: Master
+[2016-04-25 13:51:42 -0400] [13192] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 13:51:42 -0400] [13192] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (13192)
+[2016-04-25 13:51:42 -0400] [13192] [INFO] Using worker: sync
+[2016-04-25 13:51:42 -0400] [13196] [INFO] Booting worker with pid: 13196
+[2016-04-25 13:51:42 -0400] [13197] [INFO] Booting worker with pid: 13197
+[2016-04-25 16:40:41 -0400] [13192] [INFO] Handling signal: int
+[2016-04-25 16:40:41 -0400] [13196] [INFO] Worker exiting (pid: 13196)
+[2016-04-25 16:40:41 -0400] [13197] [INFO] Worker exiting (pid: 13197)
+[2016-04-25 16:40:42 -0400] [13192] [INFO] Shutting down: Master
+[2016-04-25 17:34:08 -0400] [13986] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 17:34:08 -0400] [13986] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (13986)
+[2016-04-25 17:34:08 -0400] [13986] [INFO] Using worker: sync
+[2016-04-25 17:34:08 -0400] [13990] [INFO] Booting worker with pid: 13990
+[2016-04-25 17:34:08 -0400] [13991] [INFO] Booting worker with pid: 13991
+[2016-04-25 17:51:06 -0400] [13986] [INFO] Handling signal: int
+[2016-04-25 17:51:06 -0400] [13990] [INFO] Worker exiting (pid: 13990)
+[2016-04-25 17:51:06 -0400] [13991] [INFO] Worker exiting (pid: 13991)
+[2016-04-25 17:51:07 -0400] [13986] [INFO] Shutting down: Master
+[2016-04-25 17:51:08 -0400] [14036] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 17:51:08 -0400] [14036] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (14036)
+[2016-04-25 17:51:08 -0400] [14036] [INFO] Using worker: sync
+[2016-04-25 17:51:08 -0400] [14040] [INFO] Booting worker with pid: 14040
+[2016-04-25 17:51:08 -0400] [14041] [INFO] Booting worker with pid: 14041
+[2016-04-25 17:51:35 -0400] [14036] [INFO] Handling signal: int
+[2016-04-25 17:51:35 -0400] [14040] [INFO] Worker exiting (pid: 14040)
+[2016-04-25 17:51:35 -0400] [14041] [INFO] Worker exiting (pid: 14041)
+[2016-04-25 17:51:35 -0400] [14036] [INFO] Shutting down: Master
+[2016-04-25 18:01:40 -0400] [14132] [INFO] Starting gunicorn 19.4.5
+[2016-04-25 18:01:40 -0400] [14132] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (14132)
+[2016-04-25 18:01:40 -0400] [14132] [INFO] Using worker: sync
+[2016-04-25 18:01:40 -0400] [14137] [INFO] Booting worker with pid: 14137
+[2016-04-25 18:01:40 -0400] [14138] [INFO] Booting worker with pid: 14138
+[2016-04-27 11:13:12 +0000] [19734] [INFO] Starting gunicorn 19.4.5
+[2016-04-27 11:13:12 +0000] [19734] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (19734)
+[2016-04-27 11:13:12 +0000] [19734] [INFO] Using worker: sync
+[2016-04-27 11:13:12 +0000] [19738] [INFO] Booting worker with pid: 19738
+[2016-04-27 11:13:12 +0000] [19739] [INFO] Booting worker with pid: 19739
+[2016-04-27 11:13:51 +0000] [19734] [INFO] Handling signal: int
+[2016-04-27 11:13:51 +0000] [19739] [INFO] Worker exiting (pid: 19739)
+[2016-04-27 11:13:51 +0000] [19738] [INFO] Worker exiting (pid: 19738)
+[2016-04-27 11:13:51 +0000] [19734] [INFO] Shutting down: Master
+[2016-04-27 11:14:06 +0000] [19743] [INFO] Starting gunicorn 19.4.5
+[2016-04-27 11:14:06 +0000] [19743] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (19743)
+[2016-04-27 11:14:06 +0000] [19743] [INFO] Using worker: sync
+[2016-04-27 11:14:06 +0000] [19747] [INFO] Booting worker with pid: 19747
+[2016-04-27 11:14:06 +0000] [19749] [INFO] Booting worker with pid: 19749
+[2016-04-28 00:35:49 +0000] [19743] [INFO] Handling signal: int
+[2016-04-28 00:35:49 +0000] [19747] [INFO] Worker exiting (pid: 19747)
+[2016-04-28 00:35:49 +0000] [19749] [INFO] Worker exiting (pid: 19749)
+[2016-04-28 00:35:49 +0000] [19743] [INFO] Shutting down: Master
+[2016-04-28 00:35:51 +0000] [20498] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 00:35:51 +0000] [20498] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (20498)
+[2016-04-28 00:35:51 +0000] [20498] [INFO] Using worker: sync
+[2016-04-28 00:35:51 +0000] [20502] [INFO] Booting worker with pid: 20502
+[2016-04-28 00:35:51 +0000] [20503] [INFO] Booting worker with pid: 20503
+[2016-04-28 15:00:33 +0000] [20498] [INFO] Handling signal: int
+[2016-04-28 15:00:33 +0000] [20502] [INFO] Worker exiting (pid: 20502)
+[2016-04-28 15:00:33 +0000] [20503] [INFO] Worker exiting (pid: 20503)
+[2016-04-28 15:00:33 +0000] [20498] [INFO] Shutting down: Master
+[2016-04-28 15:00:34 +0000] [21515] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:00:34 +0000] [21515] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21515)
+[2016-04-28 15:00:34 +0000] [21515] [INFO] Using worker: sync
+[2016-04-28 15:00:34 +0000] [21519] [INFO] Booting worker with pid: 21519
+[2016-04-28 15:00:34 +0000] [21521] [INFO] Booting worker with pid: 21521
+[2016-04-28 15:12:55 +0000] [21515] [INFO] Handling signal: int
+[2016-04-28 15:12:55 +0000] [21519] [INFO] Worker exiting (pid: 21519)
+[2016-04-28 15:12:55 +0000] [21521] [INFO] Worker exiting (pid: 21521)
+[2016-04-28 15:12:55 +0000] [21515] [INFO] Shutting down: Master
+[2016-04-28 15:12:56 +0000] [21529] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:12:56 +0000] [21529] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21529)
+[2016-04-28 15:12:56 +0000] [21529] [INFO] Using worker: sync
+[2016-04-28 15:12:56 +0000] [21533] [INFO] Booting worker with pid: 21533
+[2016-04-28 15:12:56 +0000] [21535] [INFO] Booting worker with pid: 21535
+[2016-04-28 15:17:00 +0000] [21529] [INFO] Handling signal: int
+[2016-04-28 15:17:00 +0000] [21533] [INFO] Worker exiting (pid: 21533)
+[2016-04-28 15:17:00 +0000] [21535] [INFO] Worker exiting (pid: 21535)
+[2016-04-28 15:17:00 +0000] [21529] [INFO] Shutting down: Master
+[2016-04-28 15:17:01 +0000] [21543] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:17:01 +0000] [21543] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21543)
+[2016-04-28 15:17:01 +0000] [21543] [INFO] Using worker: sync
+[2016-04-28 15:17:01 +0000] [21547] [INFO] Booting worker with pid: 21547
+[2016-04-28 15:17:01 +0000] [21548] [INFO] Booting worker with pid: 21548
+[2016-04-28 15:18:16 +0000] [21543] [INFO] Handling signal: int
+[2016-04-28 15:18:16 +0000] [21547] [INFO] Worker exiting (pid: 21547)
+[2016-04-28 15:18:16 +0000] [21548] [INFO] Worker exiting (pid: 21548)
+[2016-04-28 15:18:16 +0000] [21543] [INFO] Shutting down: Master
+[2016-04-28 15:18:18 +0000] [21636] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:18:18 +0000] [21636] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21636)
+[2016-04-28 15:18:18 +0000] [21636] [INFO] Using worker: sync
+[2016-04-28 15:18:18 +0000] [21640] [INFO] Booting worker with pid: 21640
+[2016-04-28 15:18:18 +0000] [21641] [INFO] Booting worker with pid: 21641
+[2016-04-28 15:19:44 +0000] [21636] [INFO] Handling signal: int
+[2016-04-28 15:19:44 +0000] [21640] [INFO] Worker exiting (pid: 21640)
+[2016-04-28 15:19:44 +0000] [21641] [INFO] Worker exiting (pid: 21641)
+[2016-04-28 15:19:44 +0000] [21636] [INFO] Shutting down: Master
+[2016-04-28 15:20:12 +0000] [21713] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:20:12 +0000] [21713] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21713)
+[2016-04-28 15:20:12 +0000] [21713] [INFO] Using worker: sync
+[2016-04-28 15:20:12 +0000] [21717] [INFO] Booting worker with pid: 21717
+[2016-04-28 15:20:12 +0000] [21718] [INFO] Booting worker with pid: 21718
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:23:05 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:31:35 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:32:12 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:32:14 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:32:14 +0000] [21713] [INFO] Handling signal: winch
+[2016-04-28 15:37:33 +0000] [21713] [INFO] Handling signal: int
+[2016-04-28 15:37:33 +0000] [21718] [INFO] Worker exiting (pid: 21718)
+[2016-04-28 15:37:33 +0000] [21717] [INFO] Worker exiting (pid: 21717)
+[2016-04-28 15:37:33 +0000] [21713] [INFO] Shutting down: Master
+[2016-04-28 15:37:37 +0000] [21772] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:37:37 +0000] [21772] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21772)
+[2016-04-28 15:37:37 +0000] [21772] [INFO] Using worker: sync
+[2016-04-28 15:37:37 +0000] [21776] [INFO] Booting worker with pid: 21776
+[2016-04-28 15:37:37 +0000] [21777] [INFO] Booting worker with pid: 21777
+[2016-04-28 15:42:34 +0000] [21772] [INFO] Handling signal: int
+[2016-04-28 15:42:34 +0000] [21776] [INFO] Worker exiting (pid: 21776)
+[2016-04-28 15:42:34 +0000] [21777] [INFO] Worker exiting (pid: 21777)
+[2016-04-28 15:42:34 +0000] [21772] [INFO] Shutting down: Master
+[2016-04-28 15:42:37 +0000] [21807] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:42:37 +0000] [21807] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21807)
+[2016-04-28 15:42:37 +0000] [21807] [INFO] Using worker: sync
+[2016-04-28 15:42:37 +0000] [21811] [INFO] Booting worker with pid: 21811
+[2016-04-28 15:42:37 +0000] [21812] [INFO] Booting worker with pid: 21812
+[2016-04-28 15:42:43 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:55 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:55 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:55 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:55 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:55 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:56 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:56 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:42:56 +0000] [21807] [INFO] Handling signal: winch
+[2016-04-28 15:43:24 +0000] [21807] [INFO] Handling signal: int
+[2016-04-28 15:43:25 +0000] [21812] [INFO] Worker exiting (pid: 21812)
+[2016-04-28 15:43:25 +0000] [21811] [INFO] Worker exiting (pid: 21811)
+[2016-04-28 15:43:25 +0000] [21807] [INFO] Shutting down: Master
+[2016-04-28 15:43:26 +0000] [21817] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:43:26 +0000] [21817] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21817)
+[2016-04-28 15:43:26 +0000] [21817] [INFO] Using worker: sync
+[2016-04-28 15:43:26 +0000] [21821] [INFO] Booting worker with pid: 21821
+[2016-04-28 15:43:26 +0000] [21822] [INFO] Booting worker with pid: 21822
+[2016-04-28 15:43:47 +0000] [21817] [INFO] Handling signal: int
+[2016-04-28 15:43:47 +0000] [21822] [INFO] Worker exiting (pid: 21822)
+[2016-04-28 15:43:47 +0000] [21821] [INFO] Worker exiting (pid: 21821)
+[2016-04-28 15:43:47 +0000] [21817] [INFO] Shutting down: Master
+[2016-04-28 15:43:54 +0000] [21831] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:43:54 +0000] [21831] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (21831)
+[2016-04-28 15:43:54 +0000] [21831] [INFO] Using worker: sync
+[2016-04-28 15:43:54 +0000] [21835] [INFO] Booting worker with pid: 21835
+[2016-04-28 15:43:54 +0000] [21836] [INFO] Booting worker with pid: 21836
+[2016-04-28 15:45:02 +0000] [21860] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:45:02 +0000] [21860] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:02 +0000] [21860] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:03 +0000] [21860] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:03 +0000] [21860] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:04 +0000] [21860] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:04 +0000] [21860] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:05 +0000] [21860] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:05 +0000] [21860] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:06 +0000] [21860] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:06 +0000] [21860] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:07 +0000] [21860] [ERROR] Can't connect to ('127.0.0.1', 4242)
+[2016-04-28 15:45:14 +0000] [21866] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 15:45:14 +0000] [21866] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:14 +0000] [21866] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:15 +0000] [21866] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:15 +0000] [21866] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:16 +0000] [21866] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:16 +0000] [21866] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:17 +0000] [21866] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:17 +0000] [21866] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:18 +0000] [21866] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 15:45:18 +0000] [21866] [ERROR] Retrying in 1 second.
+[2016-04-28 15:45:19 +0000] [21866] [ERROR] Can't connect to ('127.0.0.1', 4242)
+[2016-04-28 15:47:15 +0000] [21831] [INFO] Handling signal: int
+[2016-04-28 15:47:16 +0000] [21836] [INFO] Worker exiting (pid: 21836)
+[2016-04-28 15:47:16 +0000] [21835] [INFO] Worker exiting (pid: 21835)
+[2016-04-28 15:47:16 +0000] [21831] [INFO] Shutting down: Master
+[2016-04-28 16:09:35 +0000] [21913] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:09:35 +0000] [21913] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:09:35 +0000] [21913] [ERROR] Retrying in 1 second.
+[2016-04-28 16:09:36 +0000] [21913] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:09:36 +0000] [21913] [ERROR] Retrying in 1 second.
+[2016-04-28 16:09:37 +0000] [21913] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:09:37 +0000] [21913] [ERROR] Retrying in 1 second.
+[2016-04-28 16:09:38 +0000] [21913] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:09:38 +0000] [21913] [ERROR] Retrying in 1 second.
+[2016-04-28 16:09:39 +0000] [21913] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:09:39 +0000] [21913] [ERROR] Retrying in 1 second.
+[2016-04-28 16:09:40 +0000] [21913] [ERROR] Can't connect to ('127.0.0.1', 4242)
+[2016-04-28 16:15:58 +0000] [21957] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:15:58 +0000] [21957] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:15:58 +0000] [21957] [ERROR] Retrying in 1 second.
+[2016-04-28 16:15:59 +0000] [21957] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:15:59 +0000] [21957] [ERROR] Retrying in 1 second.
+[2016-04-28 16:16:00 +0000] [21957] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:16:00 +0000] [21957] [ERROR] Retrying in 1 second.
+[2016-04-28 16:16:01 +0000] [21957] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:16:01 +0000] [21957] [ERROR] Retrying in 1 second.
+[2016-04-28 16:16:03 +0000] [21957] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:16:03 +0000] [21957] [ERROR] Retrying in 1 second.
+[2016-04-28 16:16:04 +0000] [21957] [ERROR] Can't connect to ('127.0.0.1', 4242)
+[2016-04-28 16:28:22 +0000] [22012] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:28:22 +0000] [22012] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:28:22 +0000] [22012] [ERROR] Retrying in 1 second.
+[2016-04-28 16:28:23 +0000] [22012] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:28:23 +0000] [22012] [ERROR] Retrying in 1 second.
+[2016-04-28 16:28:24 +0000] [22012] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:28:24 +0000] [22012] [ERROR] Retrying in 1 second.
+[2016-04-28 16:28:25 +0000] [22012] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:28:25 +0000] [22012] [ERROR] Retrying in 1 second.
+[2016-04-28 16:28:26 +0000] [22012] [ERROR] Connection in use: ('127.0.0.1', 4242)
+[2016-04-28 16:28:26 +0000] [22012] [ERROR] Retrying in 1 second.
+[2016-04-28 16:28:27 +0000] [22012] [ERROR] Can't connect to ('127.0.0.1', 4242)
+[2016-04-28 16:31:58 +0000] [22089] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:31:58 +0000] [22089] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22089)
+[2016-04-28 16:31:58 +0000] [22089] [INFO] Using worker: sync
+[2016-04-28 16:31:58 +0000] [22093] [INFO] Booting worker with pid: 22093
+[2016-04-28 16:31:58 +0000] [22095] [INFO] Booting worker with pid: 22095
+[2016-04-28 16:32:39 +0000] [22089] [INFO] Handling signal: int
+[2016-04-28 16:32:39 +0000] [22095] [INFO] Worker exiting (pid: 22095)
+[2016-04-28 16:32:39 +0000] [22093] [INFO] Worker exiting (pid: 22093)
+[2016-04-28 16:32:39 +0000] [22089] [INFO] Shutting down: Master
+[2016-04-28 16:32:41 +0000] [22103] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:32:41 +0000] [22103] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22103)
+[2016-04-28 16:32:41 +0000] [22103] [INFO] Using worker: sync
+[2016-04-28 16:32:41 +0000] [22107] [INFO] Booting worker with pid: 22107
+[2016-04-28 16:32:41 +0000] [22109] [INFO] Booting worker with pid: 22109
+[2016-04-28 16:33:10 +0000] [22103] [INFO] Handling signal: int
+[2016-04-28 16:33:10 +0000] [22107] [INFO] Worker exiting (pid: 22107)
+[2016-04-28 16:33:10 +0000] [22109] [INFO] Worker exiting (pid: 22109)
+[2016-04-28 16:33:10 +0000] [22103] [INFO] Shutting down: Master
+[2016-04-28 16:34:08 +0000] [22129] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:34:08 +0000] [22129] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22129)
+[2016-04-28 16:34:08 +0000] [22129] [INFO] Using worker: sync
+[2016-04-28 16:34:08 +0000] [22133] [INFO] Booting worker with pid: 22133
+[2016-04-28 16:34:08 +0000] [22134] [INFO] Booting worker with pid: 22134
+[2016-04-28 16:40:04 +0000] [22129] [INFO] Handling signal: int
+[2016-04-28 16:40:04 +0000] [22133] [INFO] Worker exiting (pid: 22133)
+[2016-04-28 16:40:04 +0000] [22134] [INFO] Worker exiting (pid: 22134)
+[2016-04-28 16:40:04 +0000] [22129] [INFO] Shutting down: Master
+[2016-04-28 16:40:07 +0000] [22139] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:40:07 +0000] [22139] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22139)
+[2016-04-28 16:40:07 +0000] [22139] [INFO] Using worker: sync
+[2016-04-28 16:40:07 +0000] [22143] [INFO] Booting worker with pid: 22143
+[2016-04-28 16:40:07 +0000] [22144] [INFO] Booting worker with pid: 22144
+[2016-04-28 16:44:47 +0000] [22139] [INFO] Handling signal: int
+[2016-04-28 16:44:47 +0000] [22143] [INFO] Worker exiting (pid: 22143)
+[2016-04-28 16:44:47 +0000] [22144] [INFO] Worker exiting (pid: 22144)
+[2016-04-28 16:44:48 +0000] [22139] [INFO] Shutting down: Master
+[2016-04-28 16:45:19 +0000] [22167] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:45:19 +0000] [22167] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22167)
+[2016-04-28 16:45:19 +0000] [22167] [INFO] Using worker: sync
+[2016-04-28 16:45:19 +0000] [22171] [INFO] Booting worker with pid: 22171
+[2016-04-28 16:45:19 +0000] [22172] [INFO] Booting worker with pid: 22172
+[2016-04-28 16:46:11 +0000] [22167] [INFO] Handling signal: int
+[2016-04-28 16:46:11 +0000] [22171] [INFO] Worker exiting (pid: 22171)
+[2016-04-28 16:46:11 +0000] [22172] [INFO] Worker exiting (pid: 22172)
+[2016-04-28 16:46:11 +0000] [22167] [INFO] Shutting down: Master
+[2016-04-28 16:46:29 +0000] [22176] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:46:29 +0000] [22176] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22176)
+[2016-04-28 16:46:29 +0000] [22176] [INFO] Using worker: sync
+[2016-04-28 16:46:29 +0000] [22180] [INFO] Booting worker with pid: 22180
+[2016-04-28 16:46:29 +0000] [22181] [INFO] Booting worker with pid: 22181
+[2016-04-28 16:55:55 +0000] [22176] [INFO] Handling signal: int
+[2016-04-28 16:55:55 +0000] [22180] [INFO] Worker exiting (pid: 22180)
+[2016-04-28 16:55:55 +0000] [22181] [INFO] Worker exiting (pid: 22181)
+[2016-04-28 16:55:55 +0000] [22176] [INFO] Shutting down: Master
+[2016-04-28 16:55:56 +0000] [22198] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:55:56 +0000] [22198] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22198)
+[2016-04-28 16:55:56 +0000] [22198] [INFO] Using worker: sync
+[2016-04-28 16:55:56 +0000] [22202] [INFO] Booting worker with pid: 22202
+[2016-04-28 16:55:56 +0000] [22203] [INFO] Booting worker with pid: 22203
+[2016-04-28 16:58:17 +0000] [22198] [INFO] Handling signal: int
+[2016-04-28 16:58:17 +0000] [22202] [INFO] Worker exiting (pid: 22202)
+[2016-04-28 16:58:17 +0000] [22203] [INFO] Worker exiting (pid: 22203)
+[2016-04-28 16:58:17 +0000] [22198] [INFO] Shutting down: Master
+[2016-04-28 16:58:18 +0000] [22221] [INFO] Starting gunicorn 19.4.5
+[2016-04-28 16:58:18 +0000] [22221] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22221)
+[2016-04-28 16:58:18 +0000] [22221] [INFO] Using worker: sync
+[2016-04-28 16:58:18 +0000] [22225] [INFO] Booting worker with pid: 22225
+[2016-04-28 16:58:18 +0000] [22226] [INFO] Booting worker with pid: 22226
+[2016-04-29 01:25:07 +0000] [22221] [INFO] Handling signal: int
+[2016-04-29 01:25:07 +0000] [22226] [INFO] Worker exiting (pid: 22226)
+[2016-04-29 01:25:07 +0000] [22225] [INFO] Worker exiting (pid: 22225)
+[2016-04-29 01:25:08 +0000] [22221] [INFO] Shutting down: Master
+[2016-04-29 01:25:09 +0000] [22653] [INFO] Starting gunicorn 19.4.5
+[2016-04-29 01:25:09 +0000] [22653] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (22653)
+[2016-04-29 01:25:09 +0000] [22653] [INFO] Using worker: sync
+[2016-04-29 01:25:09 +0000] [22657] [INFO] Booting worker with pid: 22657
+[2016-04-29 01:25:09 +0000] [22659] [INFO] Booting worker with pid: 22659
+[2016-04-29 15:12:02 +0000] [22653] [INFO] Handling signal: int
+[2016-04-29 15:12:02 +0000] [22659] [INFO] Worker exiting (pid: 22659)
+[2016-04-29 15:12:02 +0000] [22657] [INFO] Worker exiting (pid: 22657)
+[2016-04-29 15:12:02 +0000] [22653] [INFO] Shutting down: Master
+[2016-04-29 15:12:03 +0000] [23403] [INFO] Starting gunicorn 19.4.5
+[2016-04-29 15:12:03 +0000] [23403] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (23403)
+[2016-04-29 15:12:03 +0000] [23403] [INFO] Using worker: sync
+[2016-04-29 15:12:03 +0000] [23407] [INFO] Booting worker with pid: 23407
+[2016-04-29 15:12:04 +0000] [23409] [INFO] Booting worker with pid: 23409
+[2016-04-29 16:49:21 +0000] [23403] [INFO] Handling signal: int
+[2016-04-29 16:49:21 +0000] [23407] [INFO] Worker exiting (pid: 23407)
+[2016-04-29 16:49:21 +0000] [23409] [INFO] Worker exiting (pid: 23409)
+[2016-04-29 16:49:21 +0000] [23403] [INFO] Shutting down: Master
+[2016-04-29 16:49:22 +0000] [23582] [INFO] Starting gunicorn 19.4.5
+[2016-04-29 16:49:22 +0000] [23582] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (23582)
+[2016-04-29 16:49:22 +0000] [23582] [INFO] Using worker: sync
+[2016-04-29 16:49:22 +0000] [23586] [INFO] Booting worker with pid: 23586
+[2016-04-29 16:49:23 +0000] [23588] [INFO] Booting worker with pid: 23588
+[2016-04-29 17:21:40 +0000] [23582] [INFO] Handling signal: int
+[2016-04-29 17:21:40 +0000] [23586] [INFO] Worker exiting (pid: 23586)
+[2016-04-29 17:21:40 +0000] [23588] [INFO] Worker exiting (pid: 23588)
+[2016-04-29 17:21:40 +0000] [23582] [INFO] Shutting down: Master
+[2016-04-29 17:21:41 +0000] [23641] [INFO] Starting gunicorn 19.4.5
+[2016-04-29 17:21:41 +0000] [23641] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (23641)
+[2016-04-29 17:21:41 +0000] [23641] [INFO] Using worker: sync
+[2016-04-29 17:21:41 +0000] [23645] [INFO] Booting worker with pid: 23645
+[2016-04-29 17:21:41 +0000] [23647] [INFO] Booting worker with pid: 23647
+[2016-04-30 01:19:39 +0000] [23641] [INFO] Handling signal: int
+[2016-04-30 01:19:39 +0000] [23645] [INFO] Worker exiting (pid: 23645)
+[2016-04-30 01:19:39 +0000] [23647] [INFO] Worker exiting (pid: 23647)
+[2016-04-30 01:19:39 +0000] [23641] [INFO] Shutting down: Master
+[2016-04-30 01:19:41 +0000] [24343] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 01:19:41 +0000] [24343] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24343)
+[2016-04-30 01:19:41 +0000] [24343] [INFO] Using worker: sync
+[2016-04-30 01:19:41 +0000] [24347] [INFO] Booting worker with pid: 24347
+[2016-04-30 01:19:41 +0000] [24349] [INFO] Booting worker with pid: 24349
+[2016-04-30 02:38:58 +0000] [24343] [INFO] Handling signal: int
+[2016-04-30 02:38:58 +0000] [24347] [INFO] Worker exiting (pid: 24347)
+[2016-04-30 02:38:58 +0000] [24349] [INFO] Worker exiting (pid: 24349)
+[2016-04-30 02:38:59 +0000] [24343] [INFO] Shutting down: Master
+[2016-04-30 02:39:00 +0000] [24429] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:39:00 +0000] [24429] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24429)
+[2016-04-30 02:39:00 +0000] [24429] [INFO] Using worker: sync
+[2016-04-30 02:39:00 +0000] [24433] [INFO] Booting worker with pid: 24433
+[2016-04-30 02:39:00 +0000] [24434] [INFO] Booting worker with pid: 24434
+[2016-04-30 02:39:01 +0000] [24433] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:39:01 +0000] [24433] [INFO] Worker exiting (pid: 24433)
+[2016-04-30 02:39:01 +0000] [24434] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:39:01 +0000] [24434] [INFO] Worker exiting (pid: 24434)
+[2016-04-30 02:39:01 +0000] [24429] [INFO] Shutting down: Master
+[2016-04-30 02:39:01 +0000] [24429] [INFO] Reason: Worker failed to boot.
+[2016-04-30 02:41:24 +0000] [24451] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:41:24 +0000] [24451] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24451)
+[2016-04-30 02:41:24 +0000] [24451] [INFO] Using worker: sync
+[2016-04-30 02:41:24 +0000] [24455] [INFO] Booting worker with pid: 24455
+[2016-04-30 02:41:24 +0000] [24457] [INFO] Booting worker with pid: 24457
+[2016-04-30 02:41:25 +0000] [24455] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:41:25 +0000] [24455] [INFO] Worker exiting (pid: 24455)
+[2016-04-30 02:41:25 +0000] [24457] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:41:25 +0000] [24457] [INFO] Worker exiting (pid: 24457)
+[2016-04-30 02:49:58 +0000] [24509] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:49:58 +0000] [24509] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24509)
+[2016-04-30 02:49:58 +0000] [24509] [INFO] Using worker: sync
+[2016-04-30 02:49:58 +0000] [24513] [INFO] Booting worker with pid: 24513
+[2016-04-30 02:49:58 +0000] [24514] [INFO] Booting worker with pid: 24514
+[2016-04-30 02:49:59 +0000] [24513] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:49:59 +0000] [24513] [INFO] Worker exiting (pid: 24513)
+[2016-04-30 02:49:59 +0000] [24514] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:49:59 +0000] [24514] [INFO] Worker exiting (pid: 24514)
+[2016-04-30 02:53:10 +0000] [24536] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 02:53:10 +0000] [24536] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24536)
+[2016-04-30 02:53:10 +0000] [24536] [INFO] Using worker: sync
+[2016-04-30 02:53:10 +0000] [24540] [INFO] Booting worker with pid: 24540
+[2016-04-30 02:53:10 +0000] [24541] [INFO] Booting worker with pid: 24541
+[2016-04-30 02:53:11 +0000] [24540] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:53:11 +0000] [24540] [INFO] Worker exiting (pid: 24540)
+[2016-04-30 02:53:11 +0000] [24541] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 59, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.referfrom
+[2016-04-30 02:53:11 +0000] [24541] [INFO] Worker exiting (pid: 24541)
+[2016-04-30 02:53:11 +0000] [24536] [INFO] Shutting down: Master
+[2016-04-30 02:53:11 +0000] [24536] [INFO] Reason: Worker failed to boot.
+[2016-04-30 03:07:15 +0000] [24573] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 03:07:15 +0000] [24573] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24573)
+[2016-04-30 03:07:15 +0000] [24573] [INFO] Using worker: sync
+[2016-04-30 03:07:15 +0000] [24577] [INFO] Booting worker with pid: 24577
+[2016-04-30 03:07:15 +0000] [24578] [INFO] Booting worker with pid: 24578
+[2016-04-30 03:07:16 +0000] [24577] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+[2016-04-30 03:07:16 +0000] [24577] [INFO] Worker exiting (pid: 24577)
+[2016-04-30 03:07:16 +0000] [24578] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+[2016-04-30 03:07:16 +0000] [24578] [INFO] Worker exiting (pid: 24578)
+[2016-04-30 03:07:16 +0000] [24573] [INFO] Shutting down: Master
+[2016-04-30 03:07:16 +0000] [24573] [INFO] Reason: Worker failed to boot.
+[2016-04-30 03:23:28 +0000] [24622] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 03:23:28 +0000] [24622] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (24622)
+[2016-04-30 03:23:28 +0000] [24622] [INFO] Using worker: sync
+[2016-04-30 03:23:28 +0000] [24626] [INFO] Booting worker with pid: 24626
+[2016-04-30 03:23:28 +0000] [24627] [INFO] Booting worker with pid: 24627
+[2016-04-30 03:23:29 +0000] [24626] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+[2016-04-30 03:23:29 +0000] [24626] [INFO] Worker exiting (pid: 24626)
+[2016-04-30 03:23:29 +0000] [24627] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/var/www/stockmarketwaves/wsgi.py", line 3, in <module>
+    from app.server import app
+  File "/var/www/stockmarketwaves/app/server.py", line 58, in <module>
+    from app.admin.views import myadmins
+  File "/var/www/stockmarketwaves/app/admin/views.py", line 95, in <module>
+    admin.add_view(AppUserAdmin(User, db_session))
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 319, in __init__
+    menu_icon_value=menu_icon_value)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 718, in __init__
+    self._refresh_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 810, in _refresh_cache
+    self._refresh_forms_cache()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 735, in _refresh_forms_cache
+    self._create_form_class = self.get_create_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1147, in get_create_form
+    return self.get_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py", line 1100, in get_form
+    return self.scaffold_form()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/view.py", line 671, in scaffold_form
+    extra_fields=self.form_extra_fields)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 441, in get_form
+    for name, p in properties:
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 436, in <genexpr>
+    properties = ((x, find(x)) for x in only)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqla/form.py", line 433, in find
+    raise ValueError('Invalid model property name %s.%s' % (model, name))
+ValueError: Invalid model property name <class 'app.models.User'>.description
+[2016-04-30 03:23:29 +0000] [24627] [INFO] Worker exiting (pid: 24627)
+[2016-04-30 03:23:29 +0000] [24622] [INFO] Shutting down: Master
+[2016-04-30 03:23:29 +0000] [24622] [INFO] Reason: Worker failed to boot.
+[2016-04-30 03:34:40 +0000] [26149] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 03:34:40 +0000] [26149] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (26149)
+[2016-04-30 03:34:40 +0000] [26149] [INFO] Using worker: sync
+[2016-04-30 03:34:40 +0000] [26153] [INFO] Booting worker with pid: 26153
+[2016-04-30 03:34:40 +0000] [26154] [INFO] Booting worker with pid: 26154
+[2016-04-30 03:44:01 +0000] [26149] [INFO] Handling signal: int
+[2016-04-30 03:44:01 +0000] [26153] [INFO] Worker exiting (pid: 26153)
+[2016-04-30 03:44:01 +0000] [26154] [INFO] Worker exiting (pid: 26154)
+[2016-04-30 03:44:02 +0000] [26149] [INFO] Shutting down: Master
+[2016-04-30 03:44:03 +0000] [26174] [INFO] Starting gunicorn 19.4.5
+[2016-04-30 03:44:03 +0000] [26174] [INFO] Listening at: http://127.0.0.1:4242,unix:/var/www/stockmarketwaves/sock (26174)
+[2016-04-30 03:44:03 +0000] [26174] [INFO] Using worker: sync
+[2016-04-30 03:44:03 +0000] [26178] [INFO] Booting worker with pid: 26178
+[2016-04-30 03:44:03 +0000] [26179] [INFO] Booting worker with pid: 26179

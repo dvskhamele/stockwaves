@@ -1,0 +1,2158 @@
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:44]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:44]:
+start server...
+--------------------------------------------------------------------------------
+Start view
+index
+Start view
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+INDEX
+current_user.is_authenticated()
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+current_user.is_authenticated()
+INDEX
+current_user.is_authenticated()
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+current_user.is_authenticated()
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+current_user.is_authenticated()
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+current_user.is_authenticated()
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+current_user.is_authenticated()
+INDEX
+current_user.is_authenticated()
+INDEX
+current_user.is_authenticated()
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+INDEX
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Admin control
+current_user <User: 'admin'>
+current_user <User: 'admin'>
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+Starting Stockmarketwaves App
+Starting Stockmarketwaves App
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+admin
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+admin
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+admin
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+admin
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+admin
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 184, in run
+    self.sleep()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 317, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:47]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:47]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 184, in run
+    self.sleep()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 317, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/stockmarketwaves/env/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/var/www/stockmarketwaves/env/lib/python3.4/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/contrib/sqlamodel/__init__.py:3: UserWarning: Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.
+  warnings.warn('Flask-Admin sqlalchemy integration module was renamed as flask_admin.contrib.sqla, please use it instead.')
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:892: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  if self.column_exclude_list:
+/var/www/stockmarketwaves/env/lib/python3.4/site-packages/flask_admin/model/base.py:893: UserWarning: Property excluded_list_columns is obsolete, please use column_exclude_list instead
+  columns = [c for c in columns if c not in self.column_exclude_list]
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Error get_user_session_by_userid:  'AnonymousUserMixin' object has no attribute 'users_id'
+Starting Stockmarketwaves App
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+INFO in server [/var/www/stockmarketwaves/app/server.py:46]:
+start server...
+--------------------------------------------------------------------------------

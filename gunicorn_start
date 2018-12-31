@@ -1,0 +1,26 @@
+#!/bin/bash
+
+NAME="Stockmarketwaves App"
+FLASKDIR=/var/www/stockmarketwaves
+VENVDIR=/var/www/stockmarketwaves
+SOCKFILE=/var/www/stockmarketwaves/sock
+USER=www-data
+GROUP=www-data
+NUM_WORKERS=2
+
+
+echo "Starting $NAME"
+
+# activate the virtualenv
+cd /var/www/stockmarketwaves/
+source /var/www/stockmarketwaves/env/bin/activate
+
+export PYTHONPATH=$FLASKDIR:$PYTHONPATH
+
+# Create the run directory if it doesn't exist
+RUNDIR=$(dirname $SOCKFILE)
+test -d $RUNDIR || mkdir -p $RUNDIR
+
+# Start your unicorn
+# exec gunicorn -b 127.0.0.1:4242 --workers $NUM_WORKERS  --log-level=debug --name $NAME --bind=unix:$SOCKFILE wsgi:app
+exec gunicorn -b 127.0.0.1:4242 --workers 2 --user=$USER --group=$GROUP --bind=unix:$SOCKFILE --log-file /var/www/stockmarketwaves/logs/gunicorn_app.log wsgi:app

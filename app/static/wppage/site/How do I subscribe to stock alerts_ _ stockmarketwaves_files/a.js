@@ -1,0 +1,1 @@
+/**/skimlinksApplyHandlers({"country":"RU","ts":1461161801,"sessid":"c1ed8f1671f4dfca61af39ad77ddc6ea","csp":"blue_kai:1460661314|lotame:1460660233|app_nexus:1460661315|magnetic:1459410686|dfp:1460661301|mediamath:1460661316|add_this:1460661317|skim:1460661302|krux:1460661301|tapad:1460661299","guid":"9cf5ebb1047e9d43c165924a0961aad2","merchant_domains":[]});

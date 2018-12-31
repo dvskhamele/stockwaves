@@ -1,0 +1,103 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+        <div class="row">
+
+            <div class="box">
+                <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center"><strong>LOG IN</strong></h2>
+                        <hr>
+                        <div class="login-box">
+                          <div class="login-box-body">
+
+                            <p class="login-box-msg hide">text_error</p>
+                            <form action="/login/" method="post" name="loginform" id="loginform">
+                              <div class="form-group has-feedback">
+                                <input type="text" class="form-control" placeholder="User name" id ="username" name="username" required="required">
+                                <i class="fa fa-user form-control-feedback" aria-hidden="true" style="padding-top: 8px;"></i>
+                              </div>
+                              <div id='usernamerror' class="form-group has-feedback hide">
+                                  <p style="font-size:12px;color:red">error: Username is incorrect</p>
+                              </div>
+                              <div class="form-group has-feedback">
+                                <input type="password" class="form-control" placeholder="Password" id ="password" name="password" required="required">
+                                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                              </div>
+                              <div id='passworderror' class="form-group has-feedback hide">
+                                  <p style="font-size:12px;color:red">error: Username or password is incorrect</p>
+                              </div>
+                              <div class="form-group has-feedback">
+                                    <button type="submit" class="btn btn-primary btn-block btn-social btn-flat"><i class="fa fa-key"></i>Sign In</button>
+                              </div>
+                            </form>
+                            <a href="/forgot">I forgot my password or username</a><br>
+                            <a href="/" class="text-center">Register a new membership</a><br>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+{% endblock %}
+{% block extrascript%}
+<script type="text/javascript">
+    $("#loginform").submit(function() {
+        myurlpost = "/login/";
+        formerror = false;
+        formData = {
+            'username': $("#username").val(),
+            'password': $("#password").val()
+        };
+        $.ajax({
+            url:myurlpost,
+            type:'POST',
+            data: JSON.stringify(formData),
+            contentType: "application/json; charset=utf-8",
+            success: function(res) {
+                if (res.status == 409){
+                    if (res.usererror){
+                        $('#usernamerror').removeClass('hide');
+                    }
+                    else{
+                        $('#usernamerror').addClass('hide');
+                    }
+
+                    if (res.emailerror ){
+                        $('#emailerror').removeClass('hide');
+                    }
+                    else{
+                        $('#emailerror').addClass('hide');
+                    }
+
+                    if (res.activeerror){
+                        $('#usernamerror').addClass('hide');
+                        $('#emailerror').addClass('hide');
+                        window.location = '/notactive/';
+                    }
+
+                    if (res.trialexpire){
+                        $('#usernamerror').addClass('hide');
+                        $('#emailerror').addClass('hide');
+                        window.location = '/trialexpire/';
+                    }
+                    if (res.passerror) {
+                        alert('Incorrect username or password.');
+                    }
+                }
+                else {
+                    $('#usernamerror').addClass('hide');
+                    $('#emailerror').addClass('hide');
+                    window.location = '/';
+                }
+            },
+            error:  function(res) {
+              alert('Error login.');
+            }
+          });
+        return false;
+    });
+
+</script>
+{% endblock %}
